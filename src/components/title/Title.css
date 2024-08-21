@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Spiderman';
+  src: url('../../assets/fonts/Spiderman.ttf') format('truetype');
+}
+
+.title {
+  text-align: center;
+  font-size: 3.2rem;
+  margin: 2rem 0;
+  background: rgb(94, 89, 89);
+  padding: 2rem;
+  border: 5px solid #4a4848; /* Add frame */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.title h1, .title p {
+  font-family: 'Spiderman', sans-serif;
+  font-weight: bold;
+  background: #757c6f;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.title p {
+  font-size: 2.2rem;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,16 @@
+/* src/components/scrollpopup/ScrollContent.css */
+.scroll-popup {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.scroll-popup.visible {
+  opacity: 1;
+}
