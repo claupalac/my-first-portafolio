@@ -1,11 +1,11 @@
 import React from 'react';
 import Title from "./title/Title";
-import ScrollPopup from "./scrollpopup/ScrollPopup";
+import PresentationText from "./title/PresentationText";
 
 function Home() {
         return <div>
                     <Title />
-                    <ScrollPopup message="Scrolling down" />
+            <PresentationText></PresentationText>
         </div>
                 ;
 }

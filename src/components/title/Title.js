@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './Title.css';
 
 function Title() {
-  const [dynamicText, setDynamicText] = useState('Hello');
+  const [dynamicText, setDynamicText] = useState('Welcome To My Professional Portfolio');
 
   useEffect(() => {
     const texts = [
-      'Hello',
       'Welcome To My Professional Portfolio',
       'Explore My Projects',
       'Contact Me For Collaborations'

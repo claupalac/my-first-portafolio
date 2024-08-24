@@ -7,23 +7,30 @@
   text-align: center;
   font-size: 220%;
   margin: 2rem 0;
-  background: rgb(94, 89, 89);
+  background: rgb(216, 204, 183);
   padding: 2rem;
-  border: 5px solid #4a4848; /* Add frame */
-  border-radius: 10px; /* Optional: Add rounded corners */
+  border: 5px solid #494949;
+  border-radius: 10px;
 }
 
 .title h1, .title p {
   font-family: 'Spiderman', sans-serif;
   font-weight: bold;
-  background: #757c6f;
+  background: #32363a;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fadeIn 2s ease-in-out;
+}
+.title p {
+  font-family: 'Arial', sans-serif;
+  background: #32363a;
   -webkit-background-clip: text;
   color: transparent;
   animation: fadeIn 2s ease-in-out;
 }
 
 .title p {
-  font-size: 110%;
+  font-size: 70%;
   animation: fadeIn 3s ease-in-out;
 }
 
@@ -54,6 +61,6 @@
   }
 
   .title p {
-    font-size: 110%;
+    font-size: 70%;
   }
 }
