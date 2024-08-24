@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1319c9cf.css",
-    "main.js": "/static/js/main.311d9bc5.js",
+    "main.js": "/static/js/main.79eb55b9.js",
     "static/media/Spiderman.ttf": "/static/media/Spiderman.543b16df1198355d12ce.ttf",
     "index.html": "/index.html",
     "main.1319c9cf.css.map": "/static/css/main.1319c9cf.css.map",
-    "main.311d9bc5.js.map": "/static/js/main.311d9bc5.js.map"
+    "main.79eb55b9.js.map": "/static/js/main.79eb55b9.js.map"
   },
   "entrypoints": [
     "static/css/main.1319c9cf.css",
-    "static/js/main.311d9bc5.js"
+    "static/js/main.79eb55b9.js"
   ]
 }
