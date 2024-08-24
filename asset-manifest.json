@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-first-portafolio/static/css/main.bd212546.css",
+    "main.css": "/my-first-portafolio/static/css/main.352bfb3c.css",
     "main.js": "/my-first-portafolio/static/js/main.79eb55b9.js",
     "static/media/Spiderman.ttf": "/my-first-portafolio/static/media/Spiderman.543b16df1198355d12ce.ttf",
     "index.html": "/my-first-portafolio/index.html",
-    "main.bd212546.css.map": "/my-first-portafolio/static/css/main.bd212546.css.map",
+    "main.352bfb3c.css.map": "/my-first-portafolio/static/css/main.352bfb3c.css.map",
     "main.79eb55b9.js.map": "/my-first-portafolio/static/js/main.79eb55b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd212546.css",
+    "static/css/main.352bfb3c.css",
     "static/js/main.79eb55b9.js"
   ]
 }
