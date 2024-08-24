@@ -1,15 +1,13 @@
-// src/App.js
 import React from 'react';
 import './App.css';
-import Title from './components/title/Title';
-import Popup from './components/scrollpopup/ScrollPopup';
+import {Route, Routes} from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
-  return (
-    <div className="App">
-        <Title></Title>
-      <Popup message="You have scrolled down the page!" />
-    </div>
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
   );
 }
 
