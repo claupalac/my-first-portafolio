@@ -2,6 +2,12 @@
   font-family: 'Spiderman';
   src: url('../../assets/fonts/Spiderman.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 .title {
   text-align: center;
@@ -11,6 +17,17 @@
   padding: 2rem;
   border: 5px solid #494949;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.title.small {
+  font-size: 150%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(216, 204, 183, 0.9);
+  padding: 1rem;
+  border-radius: 0;
 }
 
 .title h1, .title p {
@@ -22,7 +39,7 @@
   animation: fadeIn 2s ease-in-out;
 }
 .title p {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #32363a;
   -webkit-background-clip: text;
   color: transparent;
@@ -54,7 +71,6 @@
   }
 }
 
-/* Media query for medium screens */
 @media (min-width: 601px) and (max-width: 1024px) {
   .title h1 {
     font-size: 220%;

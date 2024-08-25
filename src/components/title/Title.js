@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './Title.css';
 
 function Title() {
-  const [dynamicText, setDynamicText] = useState('Welcome To My Professional Portfolio');
+  const [dynamicText, setDynamicText] = useState('welcome to my professional portfolio');
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const texts = [
-      'Welcome To My Professional Portfolio',
-      'Explore My Projects',
-      'Contact Me For Collaborations'
+      'welcome to my professional portfolio',
+      'explore my projects',
+      'contact me for collaborations'
     ];
     let index = 0;
     const interval = setInterval(() => {
@@ -16,14 +17,27 @@ function Title() {
       setDynamicText(texts[index]);
     }, 2000);
 
-    return () => clearInterval(interval);
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
-    <div className="title">
-      <h1>CLAUDIO PALACIOS</h1>
-      <p>{dynamicText}</p>
-    </div>
+      <div className={`title ${isScrolled ? 'small' : ''}`}>
+        <h1>CLAUDIO PALACIOS</h1>
+        <p>{dynamicText}</p>
+      </div>
   );
 }
 
