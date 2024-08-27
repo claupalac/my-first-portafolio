@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/my-first-portafolio/static/css/main.9234c55a.css",
-    "main.js": "/my-first-portafolio/static/js/main.973a01a3.js",
+    "main.css": "/my-first-portafolio/static/css/main.b0b38718.css",
+    "main.js": "/my-first-portafolio/static/js/main.fea41b97.js",
     "static/media/Spiderman.ttf": "/my-first-portafolio/static/media/Spiderman.543b16df1198355d12ce.ttf",
     "static/media/Poppins-Medium.ttf": "/my-first-portafolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/aws.svg.png": "/my-first-portafolio/static/media/aws.svg.572d50e964e2a886590f.png",
+    "static/media/react.png": "/my-first-portafolio/static/media/react.c4a2fed7a62a8d308d32.png",
+    "static/media/js.png": "/my-first-portafolio/static/media/js.266bd9fb2663dcc057b4.png",
+    "static/media/mysql.svg": "/my-first-portafolio/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
+    "static/media/php.svg": "/my-first-portafolio/static/media/php.7c41b19923da57634a76372016ed129e.svg",
     "index.html": "/my-first-portafolio/index.html",
-    "main.9234c55a.css.map": "/my-first-portafolio/static/css/main.9234c55a.css.map",
-    "main.973a01a3.js.map": "/my-first-portafolio/static/js/main.973a01a3.js.map"
+    "main.b0b38718.css.map": "/my-first-portafolio/static/css/main.b0b38718.css.map",
+    "main.fea41b97.js.map": "/my-first-portafolio/static/js/main.fea41b97.js.map"
   },
   "entrypoints": [
-    "static/css/main.9234c55a.css",
-    "static/js/main.973a01a3.js"
+    "static/css/main.b0b38718.css",
+    "static/js/main.fea41b97.js"
   ]
 }
