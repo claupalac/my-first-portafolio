@@ -7,7 +7,7 @@ const BadgesBar = ({ badges }) => {
     <div className="badges-bar">
       {badges.map((badge, index) => (
         <div key={index} className="badge">
-          {badge}
+          {<img src={badge} alt={`Badge ${index}`} />}
         </div>
       ))}
     </div>
