@@ -14,7 +14,7 @@
   font-size: 220%;
   margin: 2rem 0;
   background: rgb(216, 204, 183);
-  padding: 2rem;
+  padding: 5%;
   border: 5px solid #494949;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
@@ -22,11 +22,12 @@
 .title.small {
   font-size: 150%;
   position: fixed;
-  top: 0;
+  top: -3%;
+    left: -2%;
   width: 100%;
   z-index: 1000;
   background: rgba(216, 204, 183, 0.9);
-  padding: 1rem;
+  padding: 1%;
   border-radius: 0;
 }
 
@@ -63,11 +64,11 @@
 }
 @media (max-width: 600px) {
   .title h1 {
-    font-size: 180%;
+    font-size: 140%;
   }
 
   .title p {
-    font-size: 100%;
+    font-size: 50%;
   }
 }
 

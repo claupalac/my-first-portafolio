@@ -26,8 +26,22 @@
   font-size: 150%;
   margin-bottom: 1rem;
 }
+.presentation-text.animate b {
+  animation: enlargeText 2s ease-in-out;
+}
 
 .presentation-text p {
   font-size: 120%;
   line-height: 1.5;
+}
+@keyframes enlargeText {
+  0% {
+    font-size: 150%;
+  }
+  50% {
+    font-size: 200%;
+  }
+  100% {
+    font-size: 150%;
+  }
 }
