@@ -10,6 +10,7 @@ import mysqlImage from '../../assets/images/mysql.svg';
 import phpImage from '../../assets/images/php.svg';
 import tpImage from '../../assets/images/tp.png';
 import reactImage from '../../assets/images/react.png';
+import Name3D from '../name3d/name3d';
 
 function Home() {
     const badges =
@@ -19,6 +20,7 @@ function Home() {
         <div className="home">
         <Title/>
         <BadgesBar badges={badges}></BadgesBar>
+        <Name3D></Name3D>
         <PresentationText></PresentationText>
         <PresentationText></PresentationText>
         <PresentationText></PresentationText>
